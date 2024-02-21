@@ -18,7 +18,13 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region task2
-
+int[] num = { 4, 5, 6, 7, 8 };
+int sum = 0;
+for (int i = num[0]; i < num.Length; i++)
+{
+    sum += num[i];
+    Console.WriteLine(sum);
+}
 
 
 #endregion
