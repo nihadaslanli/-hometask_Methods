@@ -1,17 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 #region task1
- 
-    int n =2;
-    int m = 6;
-    int sum = 0;
-    if (n < m)
-    {
-        sum += (m /= n);
-        return;
-    }
+//int n = 2;
+//int m = 6;
+//int sum = 0;
+//if (n < m)
+//{
+//    sum += (m /= n);
+//    Console.WriteLine(sum);
+//}
 
-Console.WriteLine(sum);
+//else
+//{
+//    Console.WriteLine("duzgun ededi yazin");
+//}
 
 #endregion
 
