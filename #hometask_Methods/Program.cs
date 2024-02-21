@@ -1,30 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 #region task1
-//int n = 2;
-//int m = 6;
-//int sum = 0;
-//if (n < m)
+// static  double DivideElements(double a,double b)
 //{
-//    sum += (m /= n);
-//    Console.WriteLine(sum);
+//    double result = a / b;
+//    return result;
 //}
-
-//else
-//{
-//    Console.WriteLine("duzgun ededi yazin");
-//}
-
+//Console.WriteLine(DivideElements(6,3));
 #endregion
 
 #region task2
-int[] num = { 4, 5, 6, 7, 8 };
-int sum = 0;
-for (int i = num[0]; i < num.Length; i++)
-{
-    sum += num[i];
-    Console.WriteLine(sum);
-}
+//int[] num = { 4, 5, 6, 7, 8 };
+//int sum = 0;
+//for (int i = num[0]; i < num.Length; i++)
+//{
+//    sum += num[i];
+//    Console.WriteLine(sum);
+//}
 
 
 #endregion
