@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Threading.Channels;
+
 Console.WriteLine("Hello, World!");
 #region task1
 // static  double DivideElements(double a,double b)
@@ -18,6 +20,18 @@ Console.WriteLine("Hello, World!");
 //    Console.WriteLine(sum);
 //}
 
+//static int[] SumArrayElements(params int[] array)
+//      int result = SumArrayElements(2, 4, 6, 8);
+//{
+//       int result = 0;
+//      foreach (int num in array)
+//    {
+//        result += num;
+//    }
+//        return result;
+  
+//    Console.WriteLine(SumArrayElements);
+//}
 
 #endregion
 
@@ -35,8 +49,31 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(count);
 #endregion
 #region task4
-//int = 15;
-//if
+
+//int n=Convert.ToInt32(Console.ReadLine());
+//if (n <= 1)
+//{
+//    Console.WriteLine( "1 den kicik ola bilmez");
+//    return;
+//}
+
+
+//for (int i = 2; i <= n / 2; i++)
+//{
+//    if (n % i == 0)
+//    {
+//        Console.WriteLine(n + "  murekkebdi");
+//        return;
+//    }
+
+
+ 
+
+//}
+
+//Console.WriteLine("sadedi");
+
+
 
 #endregion
 
